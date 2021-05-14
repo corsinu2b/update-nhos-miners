@@ -18,6 +18,6 @@ yes | cp -f miner /opt/gminer/gminer
 
 # Update Lolminer
 cd /tmp
-wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.28a/lolMiner_v1.28a_Lin64.tar.gz
+wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.28/lolMiner_v1.28a_Lin64.tar.gz
 tar -xvf lolMiner_v1.28a_Lin64.tar.gz
 yes | cp -f 1.28a/lolMiner /opt/lolminer/lolminer
