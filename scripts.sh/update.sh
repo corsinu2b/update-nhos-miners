@@ -20,4 +20,4 @@ yes | cp -f miner /opt/gminer/gminer
 cd /tmp
 wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.29/lolMiner_v1.29_Lin64.tar.gz
 tar -xvf lolMiner_v1.29_Lin64.tar.gz
-yes | cp -f 1.28a/lolMiner /opt/lolminer/lolminer
+yes | cp -f 1.29/lolMiner /opt/lolminer/lolminer
