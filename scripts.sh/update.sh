@@ -6,8 +6,8 @@
 
 # Update NBminer
 cd /tmp
-wget https://github.com/NebuTech/NBMiner/releases/download/v37.3/NBMiner_37.3_Linux.tgz
-tar -xzvf NBMiner_37.3_Linux.tgz
+wget https://github.com/NebuTech/NBMiner/releases/download/v37.6/NBMiner_37.6_Linux.tgz
+tar -xzvf NBMiner_37.6_Linux.tgz
 yes | cp -f /tmp/NBMiner_Linux/nbminer /opt/nbminer/nbminer
 
 # Update Gminer
