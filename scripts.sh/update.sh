@@ -1,6 +1,6 @@
 #! /bin/sh
 
-# NHOS Local Log Server
+# NHOS Update Miners
 # By @totakaro 2021
 # MIT License
 
@@ -18,6 +18,6 @@ yes | cp -f miner /opt/gminer/gminer
 
 # Update Lolminer
 cd /tmp
-wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.29/lolMiner_v1.29_Lin64.tar.gz
-tar -xvf lolMiner_v1.29_Lin64.tar.gz
-yes | cp -f 1.29/lolMiner /opt/lolminer/lolminer
+wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.30/lolMiner_v1.30_Lin64.tar.gz
+tar -xvf lolMiner_v1.30_Lin64.tar.gz
+yes | cp -f 1.30/lolMiner /opt/lolminer/lolminer
