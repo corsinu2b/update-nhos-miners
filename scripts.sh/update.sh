@@ -12,8 +12,8 @@ yes | cp -f /tmp/NBMiner_Linux/nbminer /opt/nbminer/nbminer
 
 # Update Gminer
 cd /tmp
-wget https://github.com/develsoftware/GMinerRelease/releases/download/2.57/gminer_2_57_linux64.tar.xz
-tar -xvf gminer_2_57_linux64.tar.xz
+wget https://github.com/develsoftware/GMinerRelease/releases/download/2.59/gminer_2_59_linux64.tar.xz
+tar -xvf gminer_2_59_linux64.tar.xz
 yes | cp -f miner /opt/gminer/gminer
 
 # Update Lolminer
